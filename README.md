@@ -5,15 +5,15 @@ Utilizado Props e Hooks.
 
 Deploy: https://perform-task.vercel.app
 
-. Adicione suas Tarefas
-. Delete as tarefas quando quiser
+.Adicione suas Tarefas
+.Delete as tarefas quando quiser
 
 #Tecnologias
 
-. React JS
-. Armazenamento Local
-. Modulos CSS
-. Hooks
+.React JS
+.Armazenamento Local
+.Modulos CSS
+.Hooks
 
 
 
