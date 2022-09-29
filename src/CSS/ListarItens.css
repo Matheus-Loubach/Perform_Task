@@ -1,0 +1,78 @@
+.container_listarItens{
+  justify-content: center;
+  display: flex;
+}
+
+.container_listarItens ul{
+  list-style: none;
+  background-color: rgba(158, 158, 158, 0.123);
+  border-radius: 10px;
+  width: 450px;
+  word-wrap: break-word;
+  padding: 15px;
+  margin: 10px;
+  transition: .5s ease-out;
+}
+
+.container_listarItens ul :nth-child(1){
+  padding-bottom: 5px;
+  color: rgb(255, 255, 255);
+  border-bottom: 1px solid rgba(255, 3, 3, 0.493);
+  border-radius: 10px;
+  width:50%;
+  display: inline-block;
+}
+
+.container_listarItens ul :nth-child(2){
+  margin-top: 5%;
+}
+
+.container_listarItens img{
+  width: 20px;
+  height: 20px;
+  filter: invert(200%);
+  cursor: pointer;
+  padding-top: 2%;
+  margin-left: 1%;
+}
+
+.container_listarItens img:hover{
+  transform: scale(1.2);
+}
+
+.container_listarItens :nth-child(1){
+  font-size: 1.2em;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+}
+.container_listarItens :nth-child(2){
+  font-size: 1.2em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media only screen and (max-width: 900px) {
+ .container_listarItens ul{
+  transition: .5s ease-in-out;
+  width: 300px;
+ }
+
+ .container_listarItens :nth-child(1){
+  font-size: 1.1em;
+  transition: .5s ease-in-out;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+}
+.container_listarItens :nth-child(2){
+  font-size: 1.0em;
+  transition: .5s ease-in-out;
+  font-family: Arial, Helvetica, sans-serif;
+}
+ 
+}
+
+@media only screen and (max-width: 400px) {
+  .container_listarItens ul{
+   transition: .5s ease-in-out;
+   width: 250px;
+  }
+
+}
+

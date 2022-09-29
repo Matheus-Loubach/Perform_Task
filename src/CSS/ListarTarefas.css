@@ -1,0 +1,33 @@
+section img{
+  width: 50px;
+  filter: invert(200%);
+  margin-top: 2%;
+}
+.container_qtd{
+ justify-content: center;
+ text-align: center;
+  display: inline-block;
+  background-color: black;
+  padding: 10px;
+  font-size: 0.9em;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  transition: .5s ease-in-out;
+  margin-top: 2%;
+}
+
+.container_qtd span{
+  color: red;
+  font-size: 1.2em;
+  margin-left: 5px;
+}
+
+@media only screen and (max-width: 900px) {
+  .container_qtd{
+   transition: .5s ease-in-out;
+   justify-content: center;
+   text-align: center;
+  }
+  
+ }
