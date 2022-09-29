@@ -15,7 +15,7 @@ Deploy: https://perform-task.vercel.app
 - Modulos CSS
 - Hooks
 
-<img width="460" height="300" src="src/ParaGit/gif.gif">
+![gif](https://user-images.githubusercontent.com/34719454/193136352-7e747e0b-245f-4394-9dee-7eccde82ac76.gif)
 
 ### `Autor`
 
